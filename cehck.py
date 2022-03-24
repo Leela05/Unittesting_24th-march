@@ -1,7 +1,7 @@
 import unittest
 
 class Mytest(unittest.TestCase):
-    def check_dividible(x):
+    def test_check_divisible(x):
         if x % 7 == 0:
             return True
         else:
